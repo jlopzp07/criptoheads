@@ -888,6 +888,16 @@
       justify-content: center;
     }
 
+    .hero-card-icons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hero-card-icons img{
+      width: 48px;
+    }
+
     h1 {
       font-size: 2.4rem;
     }
