@@ -68,11 +68,16 @@
     padding: 1.2rem 3.5rem;
     font-size: 1.6rem;
     font-weight: 700;
+    background-color: var(--buttons);
     color: var(--button-font-color);
     border-radius: 8px;
     border: none;
     cursor: pointer;
-  }
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
   
   .secondary-button {
     width: 100%;
@@ -83,7 +88,11 @@
     background: none;
     border-radius: 8px;
     cursor: pointer;
-  }
+    -webkit-border-radius: 8px ;
+    -moz-border-radius: 8px ;
+    -ms-border-radius: 8px ;
+    -o-border-radius: 8px ;
+}
 
   .main-button:hover {
     background-color: var(--background);
@@ -141,7 +150,11 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 12.8rem;
     opacity: 6%;
-  }
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+}
 
   .left-side {
     width: 100%;
@@ -164,7 +177,11 @@
     border-top: 2px solid var(--button-font-color);
     rotate: 45deg;
     transform: translate(3px, 3px);
-  }
+    -webkit-transform: translate(3px, 3px);
+    -moz-transform: translate(3px, 3px);
+    -ms-transform: translate(3px, 3px);
+    -o-transform: translate(3px, 3px);
+}
 
   .sticky {
     position: fixed;
@@ -181,6 +198,10 @@
     -moz-transition: padding 0.2s ease-in-out;
     -ms-transition: padding 0.2s ease-in-out;
     -o-transition: padding 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
   .sticky:hover {
@@ -280,7 +301,11 @@
     transform: none;
     border: 2px solid white;
     top: 170px;
-  }
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
   
   .wheel {
     height: 5px;
@@ -371,7 +396,7 @@
 
   .blob {
     position: absolute;
-    transform: translate(-300px,-400px);
+    transform: translate(-300px, -400px);
     width: 500px;
     height: 500px;
     z-index: -1;
@@ -379,6 +404,14 @@
     border-radius: 100%;
     filter: blur(150px);
     -webkit-filter: blur(150px);
+    -webkit-transform: translate(-300px, -400px);
+    -moz-transform: translate(-300px, -400px);
+    -ms-transform: translate(-300px, -400px);
+    -o-transform: translate(-300px, -400px);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
   .blob-right {
@@ -390,7 +423,12 @@
     background-color: var(--blobs-1);
     border-radius: 100%;
     filter: blur(150px);
-  }
+    -webkit-filter: blur(150px);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
 
   .right-side {
     padding-top: 75px;
@@ -467,6 +505,7 @@
     padding: 3.2rem 3.2rem;
     background: var(--blur-background-color);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-radius: 16px;
   }
 
@@ -554,6 +593,7 @@
     padding: 4.0rem;
     background: var(--blur-background-color);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-radius: 16px;
   }
 
@@ -608,13 +648,18 @@
     padding: 4.0rem;
     background: var(--blur-background-color);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-radius: 16px;
   }
 
   .reviews-card img {
     border-radius: 100%;
     max-width: 125px;
-  }
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
 
   .reviews-card p, .reviews-card-user {
     text-align: center;
@@ -660,7 +705,11 @@
     background-color: var(--inputs-bg);
     border-radius: 4px;
     border: none;
-  }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
 
   input:focus {
     outline: none;
@@ -696,7 +745,11 @@
     border-radius: 4px;
     resize: none;
     border: none;
-  }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
 
   textarea:focus {
     outline: none;
