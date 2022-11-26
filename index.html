@@ -241,33 +241,36 @@
             <div class="header">
                 <h2><span>Trabajemos</span> juntos</h2>
             </div>
-            <div class="form-container">
-                <div class="inputs-container">
-                    <div class="sides">
-                        <div class="email-input">
-                            <label for="email">
-                                <span>Déjame tu correo electrónico para ponernos en contacto *</span>
-                            </label>
-                            <input id="email" class="inputs" type="email" placeholder="Correo electrónico..." required>
+            <form target="_blank" action="https://formsubmit.co/jlopezp07@gmail.com" method="POST">
+                <div class="form-container">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="inputs-container">
+                        <div class="sides">
+                            <div class="email-input">
+                                <label for="email">
+                                    <span>Déjame tu correo electrónico para ponernos en contacto *</span>
+                                </label>
+                                <input id="email" class="inputs" type="email" name="email" placeholder="Correo electrónico..." required>
+                            </div>
+                            <div class="name-input">
+                                <label for="name">
+                                    <span>Nombre *</span>
+                                </label>
+                                <input id="name" class="inputs" type="text" name="nombre" placeholder="Tu nombre..." required>
+                            </div>
                         </div>
-                        <div class="name-input">
-                            <label for="name">
-                                <span>Nombre *</span>
-                            </label>
-                            <input id="name" class="inputs" type="text" placeholder="Tu nombre..." required>
+                        <div class="sides">
+                            <div class="comments-input">
+                                <label for="comments">
+                                    <span>Algún comentario adicional</span>
+                                </label>
+                                <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Dime algo..."></textarea>
+                            </div>
                         </div>
                     </div>
-                    <div class="sides">
-                        <div class="comments-input">
-                            <label for="comments">
-                                <span>Algún comentario adicional</span>
-                            </label>
-                            <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Dime algo..."></textarea>
-                        </div>
-                    </div>
+                    <button type="submit" class="main-button contact-button">Enviar</button>
                 </div>
-                <button class="main-button contact-button">Enviar</button>
-            </div>
+            </form>
         </section>
     </main>
     <footer>
