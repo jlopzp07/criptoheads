@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;400;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root {
     --background: #000000;
@@ -540,6 +540,10 @@
     justify-content: space-between;
   }
 
+  .experience-card-content p {
+    line-height: 1.5;
+  }
+
   .experience div:nth-child(3) {
     flex-direction: row-reverse;
     align-self: flex-end;
@@ -573,7 +577,7 @@
     scroll-snap-align: center;
     row-gap: 16px;
     align-items: center;
-    min-width: 350px;
+    min-width: 310px;
     max-width: 360px;
     padding: 4.0rem;
     background: var(--blur-background-color);
@@ -589,6 +593,7 @@
   .reviews-card p, .reviews-card-user {
     text-align: center;
     font-size: 1.6rem;
+    font-weight: 100;
   }
 
   .reviews-card-user h4 {
