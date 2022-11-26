@@ -65,10 +65,12 @@
   }
   
   .main-button {
-    padding: 0.8rem 3.2rem;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: var(--button-font-color);
     border-radius: 8px;
+    border: none;
   }
   
   .secondary-button {
@@ -795,12 +797,6 @@
     .right-side {
       display: flex;
       justify-content: center;
-    }
-
-    .hero-card-content {
-      flex-direction: row !important;
-      row-gap: 24px;
-      align-items: center !important;
     }
 
     h1 {
