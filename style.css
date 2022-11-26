@@ -72,6 +72,7 @@
   }
   
   .secondary-button {
+    width: 100%;
     padding: 0.8rem 3.2rem;
     font-weight: 700;
     font-size: 1.6rem;
@@ -125,7 +126,7 @@
   }
 
   .hero {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
   }
@@ -149,6 +150,23 @@
   .left-side .content p {
     margin: 2.4rem 0;
     line-height: 24px;
+  }
+
+  .sticky {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 56px;
+    margin-bottom: 56px;
+    background-color: var(--font);
+    border-radius: 100%;
+    padding: 16px;
+    z-index: 999;
+  }
+
+  .sticky img {
+    width: 32px;
+    height: 32px;
   }
   
 /* ----------------------------------------------*/
@@ -672,6 +690,8 @@
   }
 
   footer {
+    width: 90%;
+    margin: auto;
     display: flex;
     margin-bottom: 16px;
     justify-content: space-between;
@@ -742,9 +762,13 @@
     .comments-input {
       margin-top: 16px;
     }
+
+    .sticky {
+      display: none;
+    }
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 970px) {
     .nav-bar ul, .nav-bar button {
       display: none;
     }
@@ -783,6 +807,7 @@
     }
 
     .hero {
+      margin-top: 100px;
       flex-direction: column;
     }
 
@@ -796,9 +821,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .hero {
-      flex-wrap: wrap;
-    }
+    
 
     .hero-card-content {
       flex-direction: column;

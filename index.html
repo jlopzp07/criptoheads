@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,29 +12,32 @@
     <title>Criptoheads | Santamaría</title>
 </head>
 <body>
-    <div class="container">
+    <main class="container" id="nav-bar">
         <header>
             <nav class="nav-bar">
                 <a href="#"><img src="./assets/Cripheads-logo-vector.svg" alt="logo de la marca criptoheads"></a>
                 <ul>
                     <li>
-                        <a href="#">inicio</a>
-                        <a href="#">servicios</a>
-                        <a href="#">logros</a>
-                        <a href="#">lo que dicen de mí</a>
+                        <a href="#home">inicio</a>
+                        <a href="#services">servicios</a>
+                        <a href="#experience">logros</a>
+                        <a href="#reviews">lo que dicen de mí</a>
                     </li>
                 </ul>
-                <button class="main-button">hablemos</button>
+                <a href="#contact"><button class="main-button">hablemos</button></a>
             </nav>
         </header>
-        <section class="hero">
+        <div class="sticky">
+            <a href="#nav-bar"><img src="./assets/icons/chevron-up.svg" alt=""></a>
+        </div>
+        <section class="hero" id="home">
             <div class="left-side">
                 <div class="content">
                     <h1>Juan Pablo <span>Santamaría</span></h1>
                     <p>Asesor de Metaversos y proyectos NFT. Creador de la comunidad Criptoheads, 
                         un espacio educativo para facilitar el acceso a las tecnologías de Web 3.</p>
                 </div>
-                <button class="main-button">Quiero conocer más</button>
+                <a href="#contact"><button class="main-button">Quiero conocer más</button></a>
                 <div class="mouse_scroll">
                     <div class="mouse">
                       <div class="wheel"></div>
@@ -66,7 +69,7 @@
                 <div class="blob"></div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="header">
                 <h2>Servicios</h2>
             </div>
@@ -169,7 +172,7 @@
         </section>
         
         <div class="blob-right"></div>
-        <section class="experience">
+        <section class="experience" id="experience">
             <div class="header">
                 <h2><span>Experiencias</span> y logros</h2>
             </div>
@@ -179,7 +182,7 @@
                     <p>Creamos un espacio educativo para más de 40 niños junto a la fundación 13 Aventuras, 
                         donde a través de gafas de realidad virtual los llevamos a viajar por el Metaverso 
                         y a hacer sus propios diseños en 3D.</p>
-                    <button class="secondary-button">¡Trabajemos juntos!</button>
+                    <a href="#contact"><button class="secondary-button">¡Trabajemos juntos!</button></a>
                 </div>
             </div>
             <div class="experience-card">
@@ -188,7 +191,7 @@
                     <p>En el marco del Cosmoverse, junto al Neaverso (un Metaverso creado a partir de las 
                         estéticas de la cultura underground y Hip Hop), se realizó una experiencia inmersiva 
                         para recorrer los espacios virtuales cubiertos por Graffitis y Cultura.</p>
-                    <button class="secondary-button">Más información</button>
+                    <a href="#contact"><button class="secondary-button">Más información</button></a>
                 </div>
             </div>
             <div class="experience-card">
@@ -197,11 +200,11 @@
                     <p>Durante la novena versión del Festival de Arte Urbano participé como expositor en una 
                         experiencia de realidad virtual dirigida a los artistas de graffiti, recreando estas 
                         obras con aerosoles llenos de pixeles que simulan la pintura.</p>
-                    <button class="secondary-button">¡Trabajemos juntos!</button>
+                    <a href="#contact"><button class="secondary-button">¡Trabajemos juntos!</button></a>
                 </div>
             </div>
         </section>
-        <section class="about-me">
+        <section class="about-me" id="reviews">
             <div class="header">
                 <h2>¿Qué dicen de mí?</h2>
             </div>
@@ -234,7 +237,7 @@
                 </div>
             <div class="blob"></div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="header">
                 <h2><span>Trabajemos</span> juntos</h2>
             </div>
@@ -266,18 +269,18 @@
                 <button class="main-button contact-button">Enviar</button>
             </div>
         </section>
-        <footer>
-            <span>Aceptamos criptomonedas</span>
-            <figure>
-                <img src="./assets/Cripheads-logo-vector.svg" alt="Logo de criptheads">
-            </figure>
-            <div class="hero-card-icons">
-                <img src="./assets/icons/brand-linkedin.svg" alt="red social de linkedin">
-                <img src="./assets/icons/brand-whatsapp.svg" alt="red social de whatsapp">
-                <img src="./assets/icons/brand-instagram.svg" alt="red social de instagram">
-                <img src="./assets/icons/brand-tiktok.svg" alt="red social de tiktok">
-            </div>
-        </footer>
-    </div>
+    </main>
+    <footer>
+        <span>Aceptamos criptomonedas</span>
+        <figure>
+            <img src="./assets/Cripheads-logo-vector.svg" alt="Logo de criptheads">
+        </figure>
+        <div class="hero-card-icons">
+            <img src="./assets/icons/brand-linkedin.svg" alt="red social de linkedin">
+            <img src="./assets/icons/brand-whatsapp.svg" alt="red social de whatsapp">
+            <img src="./assets/icons/brand-instagram.svg" alt="red social de instagram">
+            <img src="./assets/icons/brand-tiktok.svg" alt="red social de tiktok">
+        </div>
+    </footer>
 </body>
 </html>
