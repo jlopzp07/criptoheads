@@ -157,7 +157,7 @@
     right: 0;
     bottom: 0;
     margin-right: 56px;
-    margin-bottom: 56px;
+    margin-bottom: 100px;
     background-color: var(--font);
     border-radius: 100%;
     padding: 16px;
@@ -700,6 +700,12 @@
 
   footer span {
     font-size: 1.6rem;
+  }
+
+  .signature h4 {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
   }
 
   @media screen and (max-width: 400px) {
