@@ -589,6 +589,7 @@
   .experience-card {
     display: flex;
     width: fit-content;
+    width: -moz-fit-content;
     column-gap: 24px;
     padding: 4.0rem;
     background: var(--blur-background-color);
@@ -871,11 +872,16 @@
     .left-side::before {
       content: "Criptoheads";
       position: absolute;
+      transform: translateY(-60px);
       left: 20px;
       font-family: 'Space Grotesk', sans-serif;
       font-size: 6.4rem;
       opacity: 6%;
-    }
+      -webkit-transform: translateY(-60px);
+      -moz-transform: translateY(-60px);
+      -ms-transform: translateY(-60px);
+      -o-transform: translateY(-60px);
+}
 
     .right-side {
       display: flex;
