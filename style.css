@@ -797,6 +797,12 @@
       justify-content: center;
     }
 
+    .hero-card-content {
+      flex-direction: row !important;
+      row-gap: 24px;
+      align-items: center !important;
+    }
+
     h1 {
       font-size: 2.4rem;
     }
@@ -833,6 +839,10 @@
       flex-direction: column;
       row-gap: 24px;
       align-items:flex-start;
+    }
+
+    footer .hero-card-icons {
+      column-gap: 24px;
     }
 
     .reviews-cards-container {
